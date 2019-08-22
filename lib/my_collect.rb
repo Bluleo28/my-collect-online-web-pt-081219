@@ -1,6 +1,6 @@
 def hello_t(array)
   i = 0
- grouping = []
+  grouping = []
   while i < array.length
    grouping << yield(array[i])
     i += 1
