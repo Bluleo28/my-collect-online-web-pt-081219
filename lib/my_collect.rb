@@ -5,8 +5,7 @@ def hello_t(array)
     yield(array[i])
     i = i + 1
   end
- 
-  array
+ array
 end
 def my_collect(languages)
   languages = (my_collect).map do |language|
