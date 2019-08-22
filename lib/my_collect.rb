@@ -1,4 +1,4 @@
-def my_collect(array)
+def my_collect(empty_array)
   # empty_array []
   counter = 0 
 end
