@@ -4,7 +4,7 @@ def my_collect(empty_array)
   while counter < array.length 
   yield(array[counter])
   end
-  counter = 0 
+  array
 end
 def my_collect(languages)
   languages = (my_collect).map do |language|
