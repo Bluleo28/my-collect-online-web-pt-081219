@@ -8,7 +8,8 @@ def hello_t(array)
  array
 end
 def my_collect(languages)
-  languages = (my_collect).map do |lang|
+  my_collect.map do |lang|
+  lang.upcase  
   end
   yield x
 end
