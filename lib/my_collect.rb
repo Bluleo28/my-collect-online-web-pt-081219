@@ -5,5 +5,5 @@ def hello_t(array)
    grouping << yield(array[i])
     i += 1
   end
- array
+ grouping
 end
