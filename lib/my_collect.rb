@@ -1,10 +1,11 @@
-def my_collect(empty_array)
-  counter = 0 
-  
-  while counter < array.length 
-  yield(array[counter])
-  counter = counter + 1
+def hello_t(array)
+  i = 0
+ 
+  while i < array.length
+    yield(array[i])
+    i = i + 1
   end
+ 
   array
 end
 def my_collect(languages)
