@@ -1,4 +1,4 @@
-  def hello_t(array)
+  def my_collect(array)
   i = 0
   grouping = []
   while i < array.length
