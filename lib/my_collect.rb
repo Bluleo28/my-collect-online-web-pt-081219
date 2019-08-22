@@ -2,7 +2,7 @@ def hello_t(array)
   i = 0
   grouping = []
   while i < array.length
-   grouping << yield(array[i])
+    grouping << yield(array[i])
     i += 1
   end
  grouping
